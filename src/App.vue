@@ -1,5 +1,8 @@
 <template>
   <nav>
+    <div class='wrapper'>
+    </div>
+
     <div class="docker">
       <!-- BEM 命名法则 -->
       <!-- block__element--Modifier -->
@@ -25,6 +28,15 @@
 </template>
 
 <style lang="scss">
+.wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: .5rem;
+  right: 0;
+  background: blue;
+}
+
 .docker {
   display: flex;
   position: absolute;
