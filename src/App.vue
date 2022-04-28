@@ -16,6 +16,65 @@
           src='http://www.dell-lee.com/imgs/vue3/banner.jpg'
         />
       </div>
+      <div class="icons">
+        <div class="icons__item">
+          <img class="icons__item__img" src="http://www.dell-lee.com/imgs/vue3/超市.png"/>
+          <p class="icons__item__desc">超市便利</p>
+        </div>
+        <div class="icons__item">
+          <img class="icons__item__img" src="http://www.dell-lee.com/imgs/vue3/菜市场.png"/>
+          <p class="icons__item__desc">菜市场</p>
+        </div>
+        <div class="icons__item">
+          <img class="icons__item__img" src="http://www.dell-lee.com/imgs/vue3/水果店.png"/>
+          <p class="icons__item__desc">水果店</p>
+        </div>
+        <div class="icons__item">
+          <img class="icons__item__img" src="http://www.dell-lee.com/imgs/vue3/鲜花.png"/>
+          <p class="icons__item__desc">鲜花绿植</p>
+        </div>
+        <div class="icons__item">
+          <img class="icons__item__img" src="http://www.dell-lee.com/imgs/vue3/医药健康.png"/>
+          <p class="icons__item__desc">医药健康</p>
+        </div>
+        <div class="icons__item">
+          <img class="icons__item__img" src="http://www.dell-lee.com/imgs/vue3/家居.png"/>
+          <p class="icons__item__desc">家居时尚</p>
+        </div>
+        <div class="icons__item">
+          <img class="icons__item__img" src="http://www.dell-lee.com/imgs/vue3/蛋糕.png"/>
+          <p class="icons__item__desc">烘培蛋糕</p>
+        </div>
+        <div class="icons__item">
+          <img class="icons__item__img" src="http://www.dell-lee.com/imgs/vue3/签到.png"/>
+          <p class="icons__item__desc">签到</p>
+        </div>
+        <div class="icons__item">
+          <img class="icons__item__img" src="http://www.dell-lee.com/imgs/vue3/大牌免运.png"/>
+          <p class="icons__item__desc">大牌免运</p>
+        </div>
+        <div class="icons__item">
+          <img class="icons__item__img" src="http://www.dell-lee.com/imgs/vue3/红包.png"/>
+          <p class="icons__item__desc">红包套餐</p>
+        </div>
+      </div>
+      <div class="gap"></div>
+      <div class="nearby">
+        <h3 class="nearby__tittle">附近店铺</h3>
+        <div class="nearby__item">
+          <img class="nearby__item__img" src="http://www.dell-lee.com/imgs/vue3/near.png"/>
+
+        </div>
+        <div class="nearby__content">
+          <div class="nearby__content__tittle">沃尔玛</div>
+          <div class="nearby__content__tags">沃尔玛
+            <div class="nearby__content__tag">月售1万+</div>
+            <div class="nearby__content__tag">月售1万</div>
+            <div class="nearby__content__tag">月售1万</div>
+          </div>
+          <p class="nearby__content__highlight">VIP尊享满89元减4元运费卷（每月3张）</p>
+        </div>
+      </div>
     </div>
 
     <div class="docker">
@@ -96,6 +155,36 @@
   &__img {
     width: 100%;
   }
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  // 自适应横排展示并且自适应换行
+  margin-top: .16rem;
+  &__item {
+    width: 20%;
+    &__img {
+      display: block;
+      width: .4rem;
+      height: .4rem;
+      margin: 0 auto;
+    }
+    &__desc {
+      margin: .06rem 0 .16rem 0;
+      text-align: center;
+    }
+  }
+}
+
+.gap {
+  margin: 0 -.18rem;
+  height: .1rem;
+  background: #F1F1F1;
+}
+
+.nearby {
+
 }
 
 .docker {
