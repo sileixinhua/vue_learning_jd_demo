@@ -1,6 +1,11 @@
 <template>
   <nav>
     <div class='wrapper'>
+      <div class="position">
+        <span class="iconfont position__icon">&#xe61f;</span>
+        北京理工大学国防科技园2号楼10层
+        <span class="iconfont position__notice">&#xe601;</span>
+      </div>
     </div>
 
     <div class="docker">
@@ -34,10 +39,31 @@
   top: 0;
   bottom: .5rem;
   right: 0;
-  background: blue;
+  padding: 0 .18rem;
+}
+
+// .position__icon 优先级高于 .position
+.position {
+  @import url(./style/virables.scss);
+  position: relative;
+  padding: .16rem 0;
+  line-height: .22rem;
+  font-size: .16rem;
+  .postion__icon {
+    position: relative;
+    top: .01rem;
+    font-size: .2rem;
+  }
+  .position__notice {
+    position: absolute;
+    right: 0;
+    top: .18rem;
+    font-size: .15rem;
+  }
 }
 
 .docker {
+  @import url(./style/virables.scss);
   display: flex;
   position: absolute;
   left: 0;
