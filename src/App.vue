@@ -10,6 +10,12 @@
         <span class="iconfont">&#xe6e1;</span>
         山姆会员商店优惠商品
       </div>
+      <div class="banner">
+        <img
+          class="banner__img"
+          src='http://www.dell-lee.com/imgs/vue3/banner.jpg'
+        />
+      </div>
     </div>
 
     <div class="docker">
@@ -78,6 +84,17 @@
     display: inline-block;
     padding: 0 .08rem 0 .16rem;
     font-size: .2rem;
+  }
+  margin-bottom: .12rem;
+}
+
+.banner {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 25.4%;
+  // 以上配置在绘制UI时，图片没加载出来时会预留位置，不会造成页面元素位置抖动
+  &__img {
+    width: 100%;
   }
 }
 
