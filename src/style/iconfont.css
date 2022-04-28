@@ -1,9 +1,9 @@
 /* 从 demo.css 剪切过来后，在 iconfont 官网项目配置里把 url 替换掉 */
 @font-face {
     font-family: 'iconfont';  /* Project id 3355945 */
-    src: url('//at.alicdn.com/t/font_3355945_ncy494ymbp.woff2?t=1651043090782') format('woff2'),
-         url('//at.alicdn.com/t/font_3355945_ncy494ymbp.woff?t=1651043090782') format('woff'),
-         url('//at.alicdn.com/t/font_3355945_ncy494ymbp.ttf?t=1651043090782') format('truetype');
+    src: url('//at.alicdn.com/t/font_3355945_jfjnoqj09nd.woff2?t=1651110672416') format('woff2'),
+         url('//at.alicdn.com/t/font_3355945_jfjnoqj09nd.woff?t=1651110672416') format('woff'),
+         url('//at.alicdn.com/t/font_3355945_jfjnoqj09nd.ttf?t=1651110672416') format('truetype');
   }
   
   .iconfont {

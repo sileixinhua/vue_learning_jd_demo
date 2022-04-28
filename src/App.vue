@@ -6,6 +6,10 @@
         北京理工大学国防科技园2号楼10层
         <span class="iconfont position__notice">&#xe601;</span>
       </div>
+      <div class='search'>
+        <span class="iconfont">&#xe6e1;</span>
+        山姆会员商店优惠商品
+      </div>
     </div>
 
     <div class="docker">
@@ -59,6 +63,21 @@
     right: 0;
     top: .18rem;
     font-size: .15rem;
+  }
+}
+
+.search {
+  line-height: .32rem;
+  background: #f5f5f5;
+  color: #b7b7b7;
+  border-radius: .16rem;
+  font-size: .14rem;
+  .iconfont {
+    position: relative;
+    top: .03rem;
+    display: inline-block;
+    padding: 0 .08rem 0 .16rem;
+    font-size: .2rem;
   }
 }
 
