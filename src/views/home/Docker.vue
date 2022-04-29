@@ -29,7 +29,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .docker {
   @import url(./style/virables.scss);
   display: flex;

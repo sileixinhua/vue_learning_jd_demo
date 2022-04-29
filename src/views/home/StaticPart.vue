@@ -65,7 +65,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 // .position__icon 优先级高于 .position
 .position {
   @import url(./style/virables.scss);

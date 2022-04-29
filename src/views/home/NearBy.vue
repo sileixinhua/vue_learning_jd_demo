@@ -65,7 +65,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .nearby {
   &__tittle {
     margin: .16rem 0 .02rem 0;
